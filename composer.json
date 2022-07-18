@@ -1,0 +1,30 @@
+{
+    "name": "up3up/connettore-prestashop",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Up3Up\\Prestashop\\": "src/Connettore"
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "Gionata Bonazzi",
+            "email": "gionata.bonazzi@up3up.it"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gionatab/logger"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/gionatab/prestashop-webservice-lib"
+        }
+    ],
+    "require": {
+        "up3up/logger": "dev-main",
+        "up3up/prestashop-webservice-lib": "dev-main"
+    }
+}
